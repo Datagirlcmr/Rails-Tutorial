@@ -15,7 +15,7 @@ The purpose is to get a high-level overview of Ruby on Rails programming(and web
 
 ## Live Demo
 
-[Live Demo Link](https://whispering-falls-40634.herokuapp.com/)
+[Live Demo Link](https://thawing-shelf-46399.herokuapp.com/)
 
 
 # Ruby on Rails Tutorial sample application
@@ -71,7 +71,7 @@ For more information, see the
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Datagirlcmr/Toy-App/issues).
+Feel free to check the [issues page](https://github.com/Datagirlcmr/Rails-Tutorial/issues).
 
 ## Show your support
 
@@ -80,7 +80,7 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - MicroverseInc(https://www.microverse.org/)
-- Rails Tutorial(https://www.railstutorial.org/book/toy_app)
+- Rails Tutorial(https://www.railstutorial.org/book)
 
 
 ## 📝 License
