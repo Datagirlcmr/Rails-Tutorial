@@ -1,6 +1,6 @@
-# Building Static Pages (Ruby on Rails)
+# Ruby on Rails Tutorial sample application
 
->  Building Static Pages
+>  Sample App
 
 ![screenshot](./docs/image.png)
 
@@ -18,19 +18,47 @@ The purpose is to get a high-level overview of Ruby on Rails programming(and web
 [Live Demo Link](https://whispering-falls-40634.herokuapp.com/)
 
 
-## Getting Started
+# Ruby on Rails Tutorial sample application
 
-**start by generating the application skeleton using the rails new command with a specific Rails version number:
+This is the sample application for
+[*Ruby on Rails Tutorial:
+Learn Web Development with Rails*](https://www.railstutorial.org/)
+by [Michael Hartl](http://www.michaelhartl.com/).
 
-$ cd ~/environment
-$ rails _6.0.1_ new sample_app
-$ cd toy_app/
+## License
 
-**Next, we’ll use a text editor to update the Gemfile needed by Bundler.**
-**install the local gems while preventing the installation of production gems using the --without production option:
+All source code in the [Ruby on Rails Tutorial](https://www.railstutorial.org/)
+is available jointly under the MIT License and the Beerware License. See
+[LICENSE.md](LICENSE.md) for details.
 
-**$ bundle install --without production.**
+## Getting started
 
+To get started with the app, clone the repo and then install the needed gems:
+
+```
+$ bundle install --without production
+```
+
+Next, migrate the database:
+
+```
+$ rails db:migrate
+```
+
+Finally, run the test suite to verify that everything is working correctly:
+
+```
+$ rails test
+```
+
+If the test suite passes, you'll be ready to run the app in a local server:
+
+```
+$ rails server
+```
+
+For more information, see the
+[*Ruby on Rails Tutorial* book](https://www.railstutorial.org/book).
 ## Authors
 
 👤 **Selma Ndi**
@@ -38,12 +66,6 @@ $ cd toy_app/
 - Github: [@githubhandle](https://github.com/Datagirlcmr)
 - Twitter: [@twitterhandle](https://twitter.com/SelmaNdi)
 - Linkedin: [linkedin](https://www.linkedin.com/in/selma-ndi-datagirl-imba-8976ab32/)
-
-👤 **Vinicius Carvalho**
-
-- Github: [@githubhandle](https://github.com/kazumaki)
-- Twitter: [@twitterhandle](https://twitter.com/iKazumaki/)
-- Linkedin: [linkedin](https://www.linkedin.com/in/vinicius-campos-carvalho-3526a1192/)
 
 ## 🤝 Contributing
 
